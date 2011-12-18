@@ -1,8 +1,15 @@
 80211scrambler is a small collection of tools in Verilog for working
 with the 802.11B scrambler.  Understanding this scrambler is necessary
 when doing PIP injections from a 2Mbps wifi network into the 1Mbps
-header.
+header.  Code will be ported to C, Python, and Javascript when time
+allows.
 
-Code will be ported to C, Python, and Javascript when time allows.
+Packet-in-Packet (PIP) injection is an attack technique for remotely
+injecting raw frames into a wireless network by placing an entire
+PHY-layer packet inside of the body of an uncontrolled packet.  Damage
+to the Sync/SFD field of the outer packet causes the inner packet to
+be interpreted instead.  This technique was introduced at Usenix WOOT
+in 2001 with the paper included here as goodspeed-packetinpacket.pdf
+in docs/.
 
 --Travis Goodspeed
