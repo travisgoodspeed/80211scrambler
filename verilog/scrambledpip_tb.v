@@ -26,6 +26,8 @@ module scrambledpip_tb();
       
       $readmemh("beacon.hex", data);
       
+      $display ("WARNING: Scrambling compensator doesn't work yet.");	
+      
       $display ("time\t clk reset enable in s1 s2 s3");	
       $monitor (  "%g\t %b   %b     %b      %b  %b  %b  %b", 
 		  $time, clock, reset, enable,
