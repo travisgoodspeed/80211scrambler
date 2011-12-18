@@ -1,0 +1,8 @@
+80211scrambler is a small collection of tools in Verilog for working
+with the 802.11B scrambler.  Understanding this scrambler is necessary
+when doing PIP injections from a 2Mbps wifi network into the 1Mbps
+header.
+
+Code will be ported to C, Python, and Javascript when time allows.
+
+--Travis Goodspeed
