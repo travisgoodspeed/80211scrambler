@@ -1,0 +1,20 @@
+//Begin with 128 bits of 1's
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff
+//PLCP Header
+a0 f3 //SFD
+0a    //SIGNAL,   1Mbps
+00    //SERVICE,  reserved
+c0 00 //DURATION, 192us
+da ea //FCS as CRC16
+//MPDU, empty for now.
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
