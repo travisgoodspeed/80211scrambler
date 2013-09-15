@@ -9,7 +9,7 @@ injecting raw frames into a wireless network by placing an entire
 PHY-layer packet inside of the body of an uncontrolled packet.  Damage
 to the Sync/SFD field of the outer packet causes the inner packet to
 be interpreted instead.  This technique was introduced at Usenix WOOT
-in 2001 with the paper included here as goodspeed-packetinpacket.pdf
+in 2011 with the paper included here as goodspeed-packetinpacket.pdf
 in docs/.
 
 --Travis Goodspeed
